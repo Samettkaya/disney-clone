@@ -27,7 +27,10 @@ function Section() {
           <dl className="  space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map((feature) => (
               <div key={feature.name} className="relative bg-white">
-                <img className='cursor-pointer' src={feature.image} />
+                <figure className="overflow-hidden">
+                <img className='cursor-pointer hover:scale-105 transition delay-150 duration-300 ease-in' src={feature.image} />
+                </figure>
+               
                 <div className='p-8 h-44 items-center justify-center'>
                   <dt>
                     <p className=" cursor-pointer text-lg leading-6 font-medium ">

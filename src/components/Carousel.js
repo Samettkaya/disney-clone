@@ -5,7 +5,7 @@ import logotitle from "../img/logo-title.webp";
 function Carousel() {
   return (
     <div className="h-[561px] group">
-      <div className="relative">
+      <div className="overflow-hidden">
       <img className="h-[561px] cursor-pointer w-full snap-none hover:scale-105  transition delay-150 duration-300 ease-in" src={slider} />
       </div>
       <div className="absolute top-[240px] left-[90px]">
