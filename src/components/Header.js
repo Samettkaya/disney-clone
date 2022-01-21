@@ -20,13 +20,13 @@ function Header() {
                     <div className='opacity-0 invisible z-20 my-3 w-[250px] py-[14px]  px-[26px] flex absolute top-full left-0 bg-[#232B2D] text-sm text-white group-hover:visible opacity-100 transition-all'>
                             <VscTriangleUp className='-top-[16px] left-12 text-2xl absolute text-[#232B2D]'/>
                             <ul>
-                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Öne Çıkanlar</li>
+                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold text-lg hover:text-[#0077DA]'>Öne Çıkanlar</li>
                                 <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Işıkyılı</li>
                                 <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Robot Ron: Bir Sorun Var</li>
                                 <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Kırmızı</li>
-                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Lucasfilm Filimleri</li>
-                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Marvel Filimleri</li>
-                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Pixar Filimleri </li>
+                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Lucasfilm Filmleri</li>
+                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Marvel Filmleri</li>
+                                <li  className='py-[10px] px-[10px]  cursor-pointer ease-out font-bold hover:text-[#0077DA]'>Pixar Filmleri </li>
                             </ul>
                     </div>
                 </li>
